@@ -1,0 +1,13 @@
+SECTION TEXT
+roT: INPUT N1
+; Laga 
+COpy N1, N4 ; comentario qualquer
+COPY n2, N3
+CoPY N3, N3+1
+OUTPUT N3+1
+sTop
+SECTION DATA
+N1:  SPACE
+N2:  CONST -5
+N3:  SPACE 2
+N4:  space
